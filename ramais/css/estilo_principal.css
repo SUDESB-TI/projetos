@@ -19,56 +19,18 @@ body {
 
 header {
     background-color: var(--HEADER);
-    height: 200px;
-    width: 100vw;
-}
-
-.logo-code {
-    display: flex;
-    justify-content: center;
-}
-
-.QR-CODE {
-    width: 150px;
-    height: 150px;
-}
-
-#legenda-qr {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    font-size: 1.1em;
-    height: 100px;
-    width: 20%;
-
-    margin: 15px 0px 0px 20px;
-    padding: 0px 15px 0px 15px;
-
-    background-image: linear-gradient(#013059, #375e80);
-    color: white;
-    
-    border-radius: 20px 20px 20px 0px;
-    box-shadow: 1px 1px 9px rgba(0, 0, 0, 0.49);
-}
-
-.legenda {
-    margin: 0px 0px 5px 0px;
+    height: 130px;
 }
 
 .logo {
-    background-image: url(../img/SUDESB-BRANCO.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-
-    width: 240px;
-    height: 180px;
+    margin: auto;
+    width: 10%;
 }
 
-.logo-box {
+#logo-sudesb {
     display: flex;
     justify-content: center;
-     margin-top: -30px;
+    padding: 10px 0px 0px 0px;
 }
 
 h1 {
@@ -180,6 +142,39 @@ a:hover {
     align-items: center;
     justify-content: center;
     overflow-x: auto;
+}
+
+.logo-code {
+    display: flex;
+    justify-content: center;
+}
+
+.QR-CODE {
+    width: 150px;
+    height: 150px;
+}
+
+#legenda-qr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 1.1em;
+    height: 100px;
+    width: 20%;
+
+    margin: 15px 0px 0px 20px;
+    padding: 0px 15px 0px 15px;
+
+    background-image: linear-gradient(#013059, #375e80);
+    color: white;
+    
+    border-radius: 20px 20px 20px 0px;
+    box-shadow: 1px 1px 9px rgba(0, 0, 0, 0.49);
+}
+
+.legenda {
+    margin: 0px 0px 5px 0px;
 }
 
 ::-webkit-scrollbar {
