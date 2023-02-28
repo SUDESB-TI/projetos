@@ -105,7 +105,7 @@ ul > li > ul > li {
 
 .menu-container {
     position: relative;
-    right: 82%;
+    right: 80%;
     bottom: 60%;
 }
 
@@ -134,7 +134,7 @@ h2 {
 
 main {
     margin: auto;
-    width: 60vw;
+    width: 65vw;
 }
 
 footer {

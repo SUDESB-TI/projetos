@@ -61,4 +61,10 @@
     main {
         width: 45%;
     }
+
+    .menu-container {
+        position: relative;
+        right: 82%;
+        bottom: 60%;
+    }
 } 
