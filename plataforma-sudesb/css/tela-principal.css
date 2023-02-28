@@ -2,6 +2,7 @@
 
 :root {
     --NAV: #0a507e;
+    --BUTTON: #0a6099;
     --BLOCOS: #045286;
     --NAV-HOVER: #124e6b;
     --BODY: #f0f6f6;
@@ -59,12 +60,13 @@ img#menu-img {
     text-decoration: none;
 
     box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.402);
+    border-radius: 10px 10px 0px 0px;
 
-    background-color: var(--NAV-HOVER);
+    background-color: var(--BUTTON);
     color: var(--font-white);
 
     display: block;
-    padding: 0px 20px;
+    padding: 0px 75px;
 }
 
 .botao:hover {
@@ -102,6 +104,7 @@ ul > li > ul > li {
 
 .menu-container {
     position: relative;
+    right: 79%;
     bottom: 45%;
 }
 
