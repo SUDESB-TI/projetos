@@ -5,8 +5,8 @@
     header > nav > div > a > img {
         width: 40%;
         position: relative;
-        bottom: 10%;
-        left: 20%;
+        bottom: 6%;
+        left: 10%;
     }
 
     nav {
@@ -15,12 +15,18 @@
 
     .menu-container {
         position: relative;
-        bottom: 39%;
-        left: 5%;
+        right: 7%;
+        bottom: 60%;
+    }
+
+    .ul-sub {
+        position: fixed;
+        right: 4%;
     }
 
     .botao {
-        margin: 0px 0px 0px 17%;
+        padding: 0px 25px;
+        margin: 0px 20px 0px 0px;
         width: 50%;
     }
 
