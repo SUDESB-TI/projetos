@@ -56,10 +56,10 @@
       }
 }
 
-@media screen and (min-width:2020px) {
+@media screen and (min-width:1920px) {
 
     main {
-        width: 30vw;
+        width: 50%;
     }
 
     .menu-container {
